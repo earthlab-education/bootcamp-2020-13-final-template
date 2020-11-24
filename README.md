@@ -85,7 +85,7 @@ You will thus have a single value representing maximum precipitation for each ye
 
 Create a function that:
 
-* imports a `.csv` file into **pandas** DataFrames and 
+* Imports a `.csv` file into **pandas** DataFrames and 
     * Resamples the data to be a monthly sum instead of a daily sum.
     * The function should parse dates from the "DATE" column and set that column as the index.
     * The function should also add a columns "months" to the `DataFrame`, which is the numeric value of each month.
@@ -99,8 +99,7 @@ The precipitation data that you will use for figure one can be downloaded
 here: `https://ndownloader.figshare.com/files/25564340`
 
 Files in the download:
-* **boulder-daily-precip-1948-2018.csv **
-    * The dataset contains the  Boulder, CO 
+* **boulder-daily-precip-1948-2018.csv**
 * **san-fran-daily-precip-1948-2018.csv**
 
 The data contained in the download above are total daily precipitation 
@@ -113,7 +112,7 @@ You can download the original data from
 *********
 
 
-## Figure 2: Stream Discharge For 2013 Colorado Floods
+## Figure 2: Stream Discharge Data - 2013 Colorado Floods
 
 Create a figure with two subplots:
 
